@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+#SearchBar {
+  min-width: 60vw !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#dropdown-basic {
+  font-size: small;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.nav-link {
+  line-height: 50px;
 }
 
-.App-header {
+.main-navbar {
   background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-navbar ul {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 13px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-navbar uL:first-of-type {
+  min-width: 220px;
+
 }
+
+.main-navbar uL:last-of-type {
+  overflow-y: auto;
+
+}
+.main-navbar li{
+  cursor:pointer;
+}
+.home-layout {
+  background-color: #F7F7FA;
+}
+
+.home-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://i.ibb.co/D1JX1S4/432-4321392-slider-arrows-png-transparent-removebg-preview.png") !important;
+  background-color: white !important;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("https://i.ibb.co/WvNrnL0/kj.png") !important;
+  background-color: white !important;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.carousel-indicators li {
+  background-color: #cfd0d3 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #FFC107 !important;
+}
+
+.shopNowBtn {
+  border: 1px solid black;
+  box-shadow: 2px 5px black;
+}
+
+.carousel-indicators {
+  bottom: -6vh !important;
+
+}
+
+.CategoryProducts {
+  cursor: pointer;
+}
+
+.CategoryProducts h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Card {
+  max-width: 190px;
+}
+
+.Card img {
+  width: 190px;
+}
+
+.Card .price {
+  font-size: 16px;
+}
+
+.Card .price span {
+  font-weight: bold;
+}
+
+.MegaDeals {
+  background-color: #FFFEDB;
+}
+
+.MegaDealsCard {
+  border: 3px solid #F6E745;
+}
+
+.MegaDealsCard h3 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.MegaDealsCard button {
+  width: 100px;
+  height: 40px;
+}
+
+.ShopNowSlider {
+  cursor: pointer;
+}
+
+footer .footer-a {
+  padding: 20px;
+  border-top: 1px solid #002F3433;
+}
+
+
+footer .footer-a div h4 {
+  font-size: 16px;
+  color: #002f34;
+  font-weight: bold;
+  padding: 6px 0px;
+}
+
+footer .footer-a div li {
+  font-size: 14px;
+  color: #002F34A3;
+  list-style-type: none;
+  padding: 2px 0px;
+  cursor: pointer;
+}
+
+footer .footer-a div li:hover {
+  color: #3A77FF;
+}
+
+footer .footer-a div li span {
+  margin: 0px 5px;
+}
+
+footer .footer-a div li img {
+  width: 90px;
+  height: 25px;
+  margin: 20px 10px 0px 5px;
+}
+
+.social-icon {
+  font-size: 30px;
+}
+footer li{cursor: pointer;}
